@@ -1,0 +1,116 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600&display=swap');
+
+body{
+    margin: 0;
+color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 99.17px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 99.17px */
+text-transform: uppercase;
+}
+.header{height: 100vh;
+    background: linear-gradient(75deg, #FF9292 -7.33%, #DE5150 90.21%);
+}
+
+
+.navbar{color: white;
+display: flex;
+font-size: 25px;
+padding: 10px 13%;
+justify-content: space-between;
+align-items: center;
+
+}
+.navbar-center{
+display: flex;
+gap: 40px;
+}
+.navbar-center div{
+    color: #ff4948;
+background: white;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.beats{margin-top: 150px;
+margin-left: 300px;
+}
+.family{position: absolute;
+    top: 280px;
+    right: 500px;
+    color: #FFF;
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 30.8px */
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+.movie{position: absolute;
+    right: 225px;
+    top: 300px;
+    color: #FFF;
+font-size: 99.17px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 99.17px */
+text-transform: uppercase;
+}
+.mone{
+    color: #FFF;
+
+/* Subtitle / Base */
+position: absolute;
+right: 565px;
+top: 650px;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 57.2px */
+}
+.photo{width: 2px;
+    height: 57px;
+    background: #FFF;
+    position: absolute;
+    right: 505px;
+top: 640px;
+}
+.money{
+    color: #FFF;
+font-family: Rubik;
+font-size: 31px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 43.4px */
+text-decoration-line: strikethrough;
+position: absolute;
+right: 400px;
+top: 655px;
+}
+button{border: none;
+    display: flex;
+width: 191px;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+    color: #FF4948;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 30.8px */
+gap: 10px;
+border-radius: 62px;
+background: #FFF;
+position: absolute;
+right: 510px;
+top: 750px;
+cursor: pointer;
+}
